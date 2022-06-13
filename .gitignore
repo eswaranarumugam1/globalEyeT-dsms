@@ -1,8 +1,6 @@
 node_modules
 build
-package.json
-package-lock.json
+
 *.zip
 *.rar
-src/api-config/authConfig.js
-package-lock.json
+
