@@ -1,0 +1,70 @@
+.contactus-block {
+    margin-top: 100px;
+    .contact-outer-block {
+        position: relative;
+        color: white;
+        .contactus-content {
+            position: absolute;
+            width: 36%;
+            top: 35%;
+            left: 8%;
+            h6 {
+                color: #E71B1E;
+            }
+            h2 {
+                color: white;
+                font-size: 55px;
+            }
+            p {
+                font-size: 20px;
+                line-height: 30px;
+                margin-top: 20px;
+            }
+
+        }
+    }
+    .address-form-block {
+        padding-bottom: 100px;
+        .left-block {
+            margin-top: 80px;
+        }
+        .right-block {
+            background: white;
+            margin-top: -320px;
+            box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.13);
+            border-radius: 5px;
+
+            .form-outer {
+                background: white;
+                padding: 30px 20px;
+                h5 {
+                    color: #273B4A;
+                }
+            }
+            .form-group {
+                text-align: left;
+                margin: 40px 0;
+                .message {
+                    height: 168px !important;
+                }
+                .form-control {
+                    height: 48px;
+                    border-radius: 3px;
+                    background: #F3F3F3;
+                    border: none;
+                }
+                .form-control::placeholder {
+                    color: #ADA09F;
+                }
+            } 
+            .submit-btn {
+              background-color:#E42E2E !important;
+              color: white;
+              border: none;
+              width: 237px;
+            }
+        }
+   
+    }
+    
+}

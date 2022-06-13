@@ -1,0 +1,210 @@
+.auth-block-container {
+    padding: 100px 0;
+    .auth-block-outer {
+        border: 1px solid #E42E2E;
+        border-radius: 10px;
+        .left-block {
+            position: relative;
+            background: #E71B1E;
+            padding: 0 40px;
+            color: #FFFFFF;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            h5 {
+                color: #FFFFFF;
+            }
+            .content-block {
+                display: flex;
+                justify-content: center;
+                height: 100%;
+                flex-direction: column;
+                text-align: left;
+            }
+            .ellipse {
+                position: absolute;
+                width: 166px;
+                height: 166px;
+                box-sizing: border-box;
+                bottom: 13%;
+                right: -66px;
+                border-radius: 50%;
+                border: 23px solid #FFFFFF;
+            }
+        }
+        .right-block {
+            padding: 0px 60px 200px 60px;
+            .title-block {
+                padding: 20px 0px;
+                text-align: center;
+                .title-bottom-strip {
+                    width: 70px;
+                    margin:0 auto;
+                    height: 4px;
+                    background: #E71B1E;
+                }
+            }
+            
+            .register-container {
+                .form-group {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 95%;
+                }
+                .title-block {
+                    margin-top: 20px;
+                }
+            }
+            .login-container {
+                .form-group {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 95%;
+                }
+                .title-block {
+                    margin-top: 50px;
+                }
+                .forgot-password {
+                    color: #6D6D6D;
+                    margin-right:  100px;
+                    margin-top: 20px;
+                    text-align: right;
+                    span {
+                        color: lightskyblue;
+                    }
+                }
+            } 
+            .forgot-container {
+                .form-group {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 95%;
+                }
+                .title-block {
+                    margin-top: 100px;
+                }
+                .subtitle {
+                    font-size: 12px;
+                }
+            }
+            .create-new-password-container {
+                .form-group {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 95%;
+                }
+                .title-block {
+                    margin-top: 30px;
+                }
+                .subtitle {
+                    font-size: 12px;
+                }
+                .passwordbackground {
+                    background-color: #fff;
+                }
+            }
+            .verification-container {  
+                    .form-group {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 95%;
+                        input{
+                            height: 48px;
+                            width: 48px;
+                            text-align: center; 
+                        } 
+                }
+                .title-block {
+                    margin-top: 50px;
+                }
+                .subtitle {
+                    font-size: 12px;
+                }
+                
+                .resend-otp {
+                    color: #6D6D6D;
+                    margin-right:  250px;
+                    text-align: right;
+                    span {
+                        color: lightskyblue;
+                    }
+                }
+                
+            }
+            .form-group {
+                text-align: left;
+                &.password-block-outer {
+                    position: relative;
+                    img {
+                        position: absolute;
+                        bottom: 16px;
+                        right: 4px;
+                        width: 16px;
+                    }
+                }
+                label {
+                   color: #575757;
+                }
+                .form-control {
+                    height: 48px;
+                    border: 1px solid #E42E2E;
+                    border-radius: 3px;
+                    &.country-code {
+                        border-bottom-right-radius: 0;
+                        border-top-right-radius: 0;
+                    }
+                    &.mobile-number {
+                        border-left: none;
+                        border-bottom-left-radius: 0;
+                        border-top-left-radius: 0;
+                    }
+                }
+                .form-control::placeholder {
+                    color: #B4B4B4;
+                }
+                select {
+                    background-image: url('../assets/images/arrow-down-red.png');
+                    background-size: 12px 6px, 2px 9px;
+                    background-position: calc(100% - 6px) 21px, calc(100% - 20px) 8px, 100% 0;
+                    color: #B4B4B4;
+                }
+            } 
+            .btn-block {
+                width: 135px;
+                background: #E71B1E !important;
+                border-radius: 30px;
+                margin: 20px auto 20px auto;
+                border: none;
+                height: 37px;
+            }
+            .dont-have-account {
+                color: #6D6D6D;
+                margin: 20px 0px;
+                text-align: center;
+                span {
+                    color: lightskyblue;
+                }
+            }
+           
+            .or-block {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                div:nth-child(2) {
+                    color: #848484;
+                    margin: 0 10px;
+                }
+                div:nth-child(1),div:nth-child(3) {
+                    width: 26%;
+                    background: lightgray;
+                    height: 1px;
+                }
+            }
+            .social-block {
+                text-align: center;
+                span {
+                    margin-left:15px;
+                }
+            }
+        }
+    }
+}

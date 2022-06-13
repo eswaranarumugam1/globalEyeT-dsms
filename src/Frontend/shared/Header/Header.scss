@@ -1,0 +1,90 @@
+.navbar-container {
+    background: #ffff;
+    height: 80px;
+    position: relative;
+    .navbar {
+        margin-left: 145px;
+        justify-content: left;
+        .nav-item {
+            width:14%;
+            color: #525252;
+        }
+        .nav-item:last-child {
+            width:30%;
+            margin-left: auto;
+            .search-block {
+                position: relative;
+                img {
+                    position: absolute;
+                    right: 28px;
+                    top: 7px;
+                }
+                Input {
+                    border: 1px solid #E71B1E;
+                    border-radius: 30px;
+                }
+                
+            }
+            .language-block {
+                width: 80%;
+                img {
+                    font-size: 10px;
+                    position: absolute;
+                    left: 20px;
+                    top: 4px;
+                }
+                Select {
+                    border: 1px solid #E71B1E;
+                    border-radius: 30px;
+                    padding-left: 60px;
+                    // border: 1px solid #B4B4B4;
+                    // border-radius: 30px;
+                    // background-image: url('../../assets/images/arrow-down-grey.png');
+                    // background-size: 12px 6px, 2px 9px;
+                    // background-position: calc(100% - 6px) 14px, calc(100% - 20px) 8px, 100% 0;
+                    // color: #B4B4B4;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+.navbar-container {
+    .navbar {
+        justify-content: left;
+        margin-left: 0px !important;
+        background: white;
+        z-index: 9999;
+        .navbar-toggler {
+            width: 56px !important;
+            display: block !important;
+            margin: 0 0 0 auto !important;
+        }
+        .nav-item {
+            width: 90% !important;
+        }
+        .nav-item:last-child {
+            width:30%;
+            margin-left: 0 !important;
+            .search-block {
+                Input {
+                    border: 1px solid #E71B1E;
+                    border-radius: 30px;
+                }
+                
+            }
+            .language-block {
+                Select {
+                    border: 1px solid #B4B4B4;
+                    border-radius: 30px;
+                    background-image: url('../../assets/images/arrow-down-grey.png');
+                    background-size: 12px 6px, 2px 9px;
+                    background-position: calc(100% - 6px) 14px, calc(100% - 20px) 8px, 100% 0;
+                    color: #B4B4B4;
+                }
+            }
+        }
+    }
+} 
+    
+}

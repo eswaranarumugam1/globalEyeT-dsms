@@ -1,0 +1,21 @@
+.find-area-block {
+    .form-group {
+        select {
+            background-image: url('../../assets/images/arrow-down-red.png');
+            background-size: 23px 13px, 11px 17px;
+            background-position: calc(100% - 22px) 31px, calc(100% - 25px) 16px, 100% 0;
+            color: #B4B4B4;
+            border-radius: 60px;
+            width: 80%;
+            margin: 70px auto 0 auto;
+            height: 60px;
+            border: 2px solid #E71B1E;
+            padding: 0 0 0 30px;
+            color: #525252;
+        }
+        option {
+            color: #525252;
+            font-size: 30px
+        }
+    }    
+}

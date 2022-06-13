@@ -1,0 +1,34 @@
+.banner-block {
+    // background-image: initial !important;
+    background-image: url('../../assets/images/banner-one.png') no-repeat;
+    // background: url('../../assets/images/banner-one.png') no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+
+    .banner-content {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
+        color: white;
+        padding-left: 80px;
+        div {
+            width: 48%;
+        }
+        h1 {
+            color: white;
+            font-size: 74px;
+        }
+        .find-btn {
+            width:184px;
+            height:36px;
+            border-radius:50px;
+            background-color: #E71B1E !important;
+            outline: none;
+            border: none;
+        }
+    }
+}

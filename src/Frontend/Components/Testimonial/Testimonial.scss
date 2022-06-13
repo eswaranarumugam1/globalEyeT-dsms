@@ -1,0 +1,38 @@
+.carousel-content-block {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    h6 {
+        color: #E71B1E;
+    }
+    h2 {
+        color: #273B4A;
+        font-size: 47px;
+    }
+
+}
+.carousel-indicators {
+    bottom: -60px;
+    li.active {
+        background-color: #E71B1E;
+    }
+}
+.carousel-indicators li {
+    cursor: pointer;
+    background-color: #C4C4C4;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border-bottom: 10px solid transparent;
+}
+.bottom-block {
+    margin-top: 70px;
+    text-align: center;
+    
+    p {
+        color: #273B4A;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,32 @@
+.licenceTypes {
+  padding: 4rem 0;
+}
+.licenceTypes h1, .licenceTypes p{
+  color: #273B4A;
+}
+
+.licenceTypes .row{
+  max-width: 1000px;
+  margin:  40px auto 0 auto !important;
+}
+
+.cardBox{
+  border: 1px solid #E42E2E;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s ease;
+}
+.cardBox:hover{
+  background: #E42E2E;
+}
+.cardBox svg path{
+  transition: all .2s ease;
+}
+.cardBox:hover svg path{
+  fill: #fff;
+}

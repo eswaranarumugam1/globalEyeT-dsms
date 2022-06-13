@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Quicksand";
+    src: local("Quicksand"),
+     url("../src/Frontend/assets/fonts/Quicksand-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+     url("../src/Frontend/assets/fonts/Poppins-Regular.otf") format("truetype");
+}
+
+.phone-valid.invalid-feedback {
+    display: inherit;
+}

@@ -1,0 +1,17 @@
+@import '../node_modules/prismjs/themes/prism-tomorrow';
+// @import './assets/scss/app.scss';
+
+// @import url('fonts.scss');
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: 'PoppinsRegular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

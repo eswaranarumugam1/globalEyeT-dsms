@@ -1,0 +1,29 @@
+.sub-license-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    h1{
+        text-align: left;
+        color: #273B4A;
+        font-family: poppins;
+    }
+    p{
+        color: #273B4A;
+        font-family: poppins;
+    }
+}
+
+.continue{
+    background: #E42E2E;
+    border-radius: 30px;
+    padding: 10px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,166 @@
+.school-list-container {
+    .school-list {
+        max-height: 650px;
+        overflow-y: scroll;
+    }
+    .find-school-block {
+        background: #CCD2E3;
+        // height: 100px;
+        padding: 20px 0;
+        border-radius: 5px;
+        position: relative;
+        .back-image-red {
+            position: absolute;
+            left: 13px;
+            top: 30px;
+            height: 40px;
+            width: 40px;
+        }
+        .search-block:first-child {
+            margin-left: 40px;
+        }
+        .search-block {
+            img {
+                position: absolute;
+                left: 25px;
+                top: 15px;
+            }
+            .form-group {
+                margin-bottom: 0;
+            }
+            .map {
+                width: 20px;
+                height: 20px;
+            }
+            Input {
+                border: 1px solid #E71B1E;
+                border-radius: 40px;
+                height: 50px;
+                padding-left: 35px;
+                background: transparent;
+            }
+            Input::placeholder {
+                color: #273B4A;
+            }
+            Select {
+                border: 1px solid #E71B1E;
+                border-radius: 40px;
+                height: 50px;
+                padding-right: 35px;
+                background: transparent;
+                width: 200px;
+                color: #273B4A;
+            }
+            .select:after {
+                color:rgba(252, 2, 2, 0.13);
+            }
+
+            .option {
+                background-color: #34495E;
+                color: white;
+            }  
+        }  
+    }
+    .Card-list-block {
+        margin-top: 30px;
+        .card {
+            box-shadow: 0px 7.28954px 116.633px rgba(252, 2, 2, 0.13);
+            border: 1px solid #E42E2E !important;
+            margin-bottom: 20px;
+            .profileImg {
+                margin: 0 auto 0 auto;
+            }
+            .classic-car-alignment {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .image-text-alignment {
+                display: flex;
+            }
+            .school-card-details {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .img-margin {
+                margin-right: 5px;
+            }
+            hover {
+                background: #E42E2E;
+                margin-bottom: 20px;
+            }
+            border-radius: 10px;
+         .red-outline-button {
+            background: transparent !important;
+            outline: none;
+            border: 1px solid #E42E2E !important;
+            border-radius: 40px;
+            color:#444444 !important;
+            width: 100px;
+            font-size: 14px;    
+         }
+        .review-timetable-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 10px;
+            .reviews {
+                color: #525252;
+                border-right: 2px solid #B4B4B4;
+                padding-right: 20px;
+                height: 20px;
+                // p {
+                //     // margin-top: 10px;
+                // }
+            }
+            .time-table {
+                padding-left: 20px;
+                height: 20px;
+                p {
+                    // margin-top: 10px;
+                    color: #E42E2E;
+                }
+            }
+         }
+         .address-block {
+             p {
+                 color: #273B4A;
+             }
+         }
+        
+         .school-name {
+             font-size: 30px;
+             color:#000000;
+         }
+        }
+    }
+    .pagination {
+        margin: 15px auto;
+        display: flex;
+        list-style: none;
+        outline: none;
+      }
+      .pagination > .active > a{
+        background-color: #47ccde ;
+        border-color: #47ccde ;
+        color: #fff;
+      }
+      .pagination > li > a{
+        border: 1px solid #47ccde ;
+        padding: 5px 10px;
+        outline: none;
+        cursor: pointer;
+      }
+      .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+        background-color: #47ccde ;
+        border-color: #47ccde;
+        outline: none ;
+      }
+      .pagination > li > a, .pagination > li > span{
+        color: #47ccde
+      }
+      .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+        border-radius: unset
+      }
+}

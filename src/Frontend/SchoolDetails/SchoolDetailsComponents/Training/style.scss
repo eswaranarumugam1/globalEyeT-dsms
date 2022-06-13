@@ -1,0 +1,68 @@
+.training{
+    padding: 10px;
+    .plan-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .plan{
+        cursor: pointer;
+        width: 350px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        background: #EFEFEF;
+        margin: 0 10px;
+        align-items: center;
+        .plan-inner{
+            background: #FFF;
+            margin-top: 30px;
+            width: 100%;
+            height: 100%;
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            color: #777777;
+            p{
+                width: 250px;
+            }
+            ul{
+                list-style-type: none;
+                li{
+                    margin-bottom: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                }
+            }
+            .inspection{
+                background: #EFEFEF;
+                display: flex;
+                gap: 10px;
+                width: 70%;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 10px;
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .btn{
+        background: #FFF;
+        border: 1px solid #BCBCBC;
+    }
+    .active{
+        background: #E71B1E;
+        color: #FFF;
+    }
+}

@@ -1,0 +1,313 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #ffffff !important;
+}
+
+.addspace {
+  justify-content: space-between;
+  display: flex;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url('../../../public/assets/images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url('../../../public/assets/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('../../../public/assets/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
+.container-fluid{
+  max-width: 90%;
+  padding: 0 !important;
+}
+.searchContainer{
+  padding-top: 50px;
+}
+.searchContainer input{
+  border: 1px solid #E42E2E;
+  border-radius: 25px;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px 30px;
+  outline: none;
+  margin-bottom: 5px;
+}
+.searchContainer span{
+  margin-left: 30px;
+  color: #817B7B;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.aboutUs .container-fluid{
+  overflow: hidden;
+  border-radius: 15px;
+  background: #CCD2E3;
+  display: flex;
+  flex-direction: row;
+}
+.aboutUs .container-fluid img{
+  height: 350px;
+}
+.aboutUsText {
+  padding: 30px;
+}
+.aboutUsText h5, .aboutUsText a{
+  color: #E42E2E;
+  font-size: 16px;
+  font-weight: 400;
+}
+.aboutUsText h3{
+  font-size: 24px;
+  color: #273B4A;
+}
+.aboutUsText p{
+  color: #273B4A;
+  line-height: 24px;
+}
+
+
+.ourSpecialites{
+  padding: 50px 0;
+  text-align: center;
+}
+.ourSpecialites h4{
+  color: #273B4A;
+  font-size: 24px;
+  font-weight: 500;
+}
+.ourSpecialites h6{
+  color: #273B4A;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.ourSpecialites .col{
+  text-align: center;
+}
+.ourSpecialites img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 0 auto 20px auto;
+}
+.ourSpecialites h5{
+  color: #E42E2E;
+  font-style: italic;
+}
+.ourSpecialites h5 span{
+  display: block;
+  width: 100px;
+  background: #E42E2E;
+  height: 2px;
+  margin: 10px auto;
+}
+.ourSpecialites p{
+  font-size: 15px;
+  color: #273B4A;
+  max-width: 250px;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+.loginContainer{
+  border: 1px solid #E71B1E;
+  border-radius: 10px;
+  margin: 5px 0;
+  overflow: hidden;
+}
+.loginContainer .row{
+  margin: 0;
+}
+.loginContainer .loginText p{
+  font-size:14px;
+}
+.loginContainer .loginText h4{
+  color:#fff;
+}
+
+.loginContainer .form-group{
+  text-align: left;
+}
+
+.loginContainer h4{
+  font-weight: 500;
+}
+
+
+.loginContainer .loginText{
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding:10px 25px;
+  overflow: hidden;
+}
+
+.loginFields{
+  padding: 100px 0;
+}
+.loginContainer .signInBtn{
+  background: #E71B1E;
+  border: 1px solid #E71B1E;
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: white;
+}
+
+.loginContainer .loginFields {
+  padding: 100px 50px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.loginContainer .loginFields h4{
+ margin-bottom: -5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #273B4A;
+}
+
+.loginContainer .form-control {
+  padding: 10px 15px;
+  height: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #E71B1E;
+  border-radius: 0.357rem;
+  font-size:10px;
+}
+
+.loginContainer .form-control::placeholder {
+color:#575757;
+}
+
+.loginContainer .ForgotPwd {
+text-align: right;
+font-size: 12px;
+}
+
+.loginContainer .form-group {
+margin-bottom: 20px;
+position: relative;
+}
+
+.loginContainer .form-group label{
+font-size:14px;
+color:#413D3D;
+}
+.loginContainer .loginBorder{
+background-color: #E71B1E;
+display: inline-block;
+width: 100px;
+height: 3px;
+}
+.loginContainer .loginTextBorder{
+position:absolute;
+border:15px solid white;
+border-radius: 100px;
+height: 110px;
+width:110px;
+bottom: 22px;
+right: -50px;
+}
+
+.loginContainer .ForgotPwd{
+text-align: right;
+color:blue;
+}
+.loginContainer .form-group-append{
+position: absolute;
+  bottom: 8px;
+  right: 15px;
+  color:#E71B1E;
+}
+
+.loginContainer .loginOptions{
+position: relative;
+max-width: 80%;
+margin: auto;
+}
+.loginContainer .loginOptions::before{
+position:absolute;
+content: '';
+width:100%;
+height: 1px;
+background:#e1e1e1;;
+bottom:9px;
+left:0;
+}
+.loginContainer .loginOptions span{
+position: relative;
+z-index: 11;
+background-color: #fff;
+padding: 0 20px;
+}
+
+.loginContainer .SocialLogin a{
+  text-decoration: none;
+  color: #273B4A;
+}
+
+.loginContainer .SigninTxt p{
+font-size: 12px;
+color:#6D6D6D;
+}
+
+
+.read-more-link{
+  color: blueviolet;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.extra-content{
+  color: cornflowerblue;
+  font-weight: 500;
+}

@@ -1,0 +1,31 @@
+.aboutUs-block {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    .leftImg-block {
+        // background: url('../../assets/images/aboutusimg.png') no-repeat;
+        // background-image: url('../../assets/images/aboutusimg.png') no-repeat;
+        // // height: ;
+        img {
+            height: 519px;
+        }
+    }
+    .right-block {
+        background: #CCD2E3;
+        border-top-right-radius: 13px;
+        border-bottom-right-radius: 13px;
+        padding: 30px 40px 50px 50px;
+        h4 {
+            color: #E71B1E;
+        }
+        h1 {
+            color: #273B4A;
+        }
+        p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+        h6 {
+            color: #E71B1E;
+        }
+    }
+}
